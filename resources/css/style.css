@@ -159,6 +159,7 @@ header {
   flex-direction: column;
   justify-content: center;
   background-color: lightgrey;
+  padding-bottom: .5rem;
 }
 
 #sectionthreetitle {
@@ -201,5 +202,56 @@ header {
 /* Section Four */
 
 #sectionfour {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  padding-bottom: .5rem;
+}
 
+#sectionfourtitle {
+  display: flex;
+  margin: 2rem 0rem;
+  justify-content: center;
+}
+
+#sectionfourmaincontent {
+  display: flex;
+}
+
+#sectionfourmaincontentleft {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+#sectionfourmaincontentleft video {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+#sectionfourmaincontentright {
+  margin-top: -1rem;
+  display: flex;
+  flex-direction: column;
+  width: calc(40% - 1.5rem);
+  margin-left: 1.5rem;
+  max-width: 423px;
+}
+
+.sectionfourrightcategory {
+  display: flex;
+  max-width: 423px;
+  width: auto;
+  padding: 1rem 0rem 1rem 1rem;
+}
+
+.sectionfourrightcategoryimg {
+  width: 35%;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.sectionfourrightcategoryimg img {
+  width: 100%;
 }
